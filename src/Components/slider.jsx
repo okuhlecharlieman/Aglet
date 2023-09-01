@@ -35,114 +35,186 @@ function Slider() {
         <Carousel interval={null}>
           <Carousel.Item>
             <div className="d-flex">
-              <video
-                src={video1}
-                alt="project-management"
-                className="carousel-image col-4"
-                muted
-                onMouseEnter={(e) => handleVideoHover(e.target)}
-                onMouseLeave={(e) => handleVideoLeave(e.target)}
-              />
-              <video
-                src={video2}
-                alt="project-management"
-                className="carousel-image col-4"
-                muted
-                onMouseEnter={(e) => handleVideoHover(e.target)}
-                onMouseLeave={(e) => handleVideoLeave(e.target)}
-              />
-              <video
-                src={video3}
-                alt="project-management"
-                className="carousel-image col-4"
-                muted
-                onMouseEnter={(e) => handleVideoHover(e.target)}
-                onMouseLeave={(e) => handleVideoLeave(e.target)}
-              />
+              <div className="col-4">
+                <video
+                  src={video12}
+                  alt="project-management"
+                  className="carousel-image img-fluid"
+                  muted
+                  onMouseEnter={(e) => handleVideoHover(e.target)}
+                  onMouseLeave={(e) => handleVideoLeave(e.target)}
+                />
+                <div className="col text-white font-weight-bold my-2">
+                  kdjjdjdj
+                </div>
+                <div className="col text-secondary">djjd</div>
+              </div>
+              <div className="col-4">
+                <video
+                  src={video1}
+                  alt="project-management"
+                  className="carousel-image img-fluid"
+                  muted
+                  onMouseEnter={(e) => handleVideoHover(e.target)}
+                  onMouseLeave={(e) => handleVideoLeave(e.target)}
+                />
+                <div className="col text-white font-weight-bold my-2">
+                  kdjjdjdj
+                </div>
+                <div className="col text-secondary">djjd</div>
+              </div>
+              <div className="col-4">
+                <video
+                  src={video2}
+                  alt="project-management"
+                  className="carousel-image img-fluid"
+                  muted
+                  onMouseEnter={(e) => handleVideoHover(e.target)}
+                  onMouseLeave={(e) => handleVideoLeave(e.target)}
+                />
+                <div className="col text-white font-weight-bold my-2">
+                  kdjjdjdj
+                </div>
+                <div className="col text-secondary">djjd</div>
+              </div>
             </div>
           </Carousel.Item>
           <Carousel.Item>
             <div className="d-flex">
-              <video
-                src={video4}
-                alt="project-management"
-                className="carousel-image col-4"
-                muted
-                onMouseEnter={(e) => handleVideoHover(e.target)}
-                onMouseLeave={(e) => handleVideoLeave(e.target)}
-              />
-              <video
-                src={video5}
-                alt="project-management"
-                className="carousel-image col-4"
-                muted
-                onMouseEnter={(e) => handleVideoHover(e.target)}
-                onMouseLeave={(e) => handleVideoLeave(e.target)}
-              />
-              <video
-                src={video6}
-                alt="project-management"
-                className="carousel-image col-4"
-                muted
-                onMouseEnter={(e) => handleVideoHover(e.target)}
-                onMouseLeave={(e) => handleVideoLeave(e.target)}
-              />
+              <div className="col-4">
+                <video
+                  src={video3}
+                  alt="project-management"
+                  className="carousel-image img-fluid"
+                  muted
+                  onMouseEnter={(e) => handleVideoHover(e.target)}
+                  onMouseLeave={(e) => handleVideoLeave(e.target)}
+                />
+                <div className="col text-white font-weight-bold my-2">
+                  kdjjdjdj
+                </div>
+                <div className="col text-secondary">djjd</div>
+              </div>
+              <div className="col-4">
+                <video
+                  src={video4}
+                  alt="project-management"
+                  className="carousel-image img-fluid"
+                  muted
+                  onMouseEnter={(e) => handleVideoHover(e.target)}
+                  onMouseLeave={(e) => handleVideoLeave(e.target)}
+                />
+                <div className="col text-white font-weight-bold my-2">
+                  kdjjdjdj
+                </div>
+                <div className="col text-secondary">djjd</div>
+              </div>
+              <div className="col-4">
+                <video
+                  src={video5}
+                  alt="project-management"
+                  className="carousel-image img-fluid"
+                  muted
+                  onMouseEnter={(e) => handleVideoHover(e.target)}
+                  onMouseLeave={(e) => handleVideoLeave(e.target)}
+                />
+                <div className="col text-white font-weight-bold my-2">
+                  kdjjdjdj
+                </div>
+                <div className="col text-secondary">djjd</div>
+              </div>
             </div>
           </Carousel.Item>
           <Carousel.Item>
             <div className="d-flex">
-              <video
-                src={video7}
-                alt="project-management"
-                className="carousel-image col-4"
-                muted
-                onMouseEnter={(e) => handleVideoHover(e.target)}
-                onMouseLeave={(e) => handleVideoLeave(e.target)}
-              />
-              <video
-                src={video8}
-                alt="project-management"
-                className="carousel-image col-4"
-                muted
-                onMouseEnter={(e) => handleVideoHover(e.target)}
-                onMouseLeave={(e) => handleVideoLeave(e.target)}
-              />
-              <video
-                src={video9}
-                alt="project-management"
-                className="carousel-image col-4"
-                muted
-                onMouseEnter={(e) => handleVideoHover(e.target)}
-                onMouseLeave={(e) => handleVideoLeave(e.target)}
-              />
+              <div className="col-4">
+                <video
+                  src={video6}
+                  alt="project-management"
+                  className="carousel-image img-fluid"
+                  muted
+                  onMouseEnter={(e) => handleVideoHover(e.target)}
+                  onMouseLeave={(e) => handleVideoLeave(e.target)}
+                />
+                <div className="col text-white font-weight-bold my-2">
+                  kdjjdjdj
+                </div>
+                <div className="col text-secondary">djjd</div>
+              </div>
+              <div className="col-4">
+                <video
+                  src={video7}
+                  alt="project-management"
+                  className="carousel-image img-fluid"
+                  muted
+                  onMouseEnter={(e) => handleVideoHover(e.target)}
+                  onMouseLeave={(e) => handleVideoLeave(e.target)}
+                />
+                <div className="col text-white font-weight-bold my-2">
+                  kdjjdjdj
+                </div>
+                <div className="col text-secondary">djjd</div>
+              </div>
+              <div className="col-4">
+                <video
+                  src={video8}
+                  alt="project-management"
+                  className="carousel-image img-fluid"
+                  muted
+                  onMouseEnter={(e) => handleVideoHover(e.target)}
+                  onMouseLeave={(e) => handleVideoLeave(e.target)}
+                />
+                <div className="col text-white font-weight-bold my-2">
+                  kdjjdjdj
+                </div>
+                <div className="col text-secondary">djjd</div>
+              </div>
             </div>
           </Carousel.Item>
           <Carousel.Item>
             <div className="d-flex">
-              <video
-                src={video10}
-                alt="project-management"
-                className="carousel-image col-4"
-                muted
-                onMouseEnter={(e) => handleVideoHover(e.target)}
-                onMouseLeave={(e) => handleVideoLeave(e.target)}
-              />
-              <video
-                src={video11}
-                alt="project-management"
-                className="carousel-image col-4"
-                muted
-                onMouseEnter={(e) => handleVideoHover(e.target)}
-                onMouseLeave={(e) => handleVideoLeave(e.target)}
-              />
-              <video
-                src={video12}
-                alt="project-management"
-                className="carousel-image col-4"
-                muted
-                onMouseEnter={(e) => handleVideoHover(e.target)}
-                onMouseLeave={(e) => handleVideoLeave(e.target)}
-              />
+              <div className="col-4">
+                <video
+                  src={video9}
+                  alt="project-management"
+                  className="carousel-image img-fluid"
+                  muted
+                  onMouseEnter={(e) => handleVideoHover(e.target)}
+                  onMouseLeave={(e) => handleVideoLeave(e.target)}
+                />
+                <div className="col text-white font-weight-bold my-2">
+                  kdjjdjdj
+                </div>
+                <div className="col text-secondary">djjd</div>
+              </div>
+              <div className="col-4">
+                <video
+                  src={video10}
+                  alt="project-management"
+                  className="carousel-image img-fluid"
+                  muted
+                  onMouseEnter={(e) => handleVideoHover(e.target)}
+                  onMouseLeave={(e) => handleVideoLeave(e.target)}
+                />
+                <div className="col text-white font-weight-bold my-2">
+                  kdjjdjdj
+                </div>
+                <div className="col text-secondary">djjd</div>
+              </div>
+              <div className="col-4">
+                <video
+                  src={video11}
+                  alt="project-management"
+                  className="carousel-image img-fluid"
+                  muted
+                  onMouseEnter={(e) => handleVideoHover(e.target)}
+                  onMouseLeave={(e) => handleVideoLeave(e.target)}
+                />
+                <div className="col text-white font-weight-bold my-2">
+                  kdjjdjdj
+                </div>
+                <div className="col text-secondary">djjd</div>
+              </div>
             </div>
           </Carousel.Item>
         </Carousel>

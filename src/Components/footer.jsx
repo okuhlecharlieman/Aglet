@@ -3,7 +3,7 @@ import "./footer.scss";
 
 const Afooter = () => {
   return (
-    <footer className="footer mt-auto py-3 text-muted">
+    <footer className="footer mt-auto py-3 text-secondary">
       <div className="container d-flex">
         <div className="justify-content-start ">
           All rights reserved | Impressum | Datenschutz | AGB | Code of Conduct
