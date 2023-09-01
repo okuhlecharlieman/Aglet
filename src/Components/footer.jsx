@@ -3,15 +3,13 @@ import "./footer.scss";
 
 const Afooter = () => {
   return (
-    <footer className="footer mt-auto py-3 text-secondary">
-      <div className="container d-flex">
-        <div className="justify-content-start ">
+    <footer className="footer footer-home mt-auto py-3 text-secondary">
+      <div className="container d-flex justify-content-between">
+        <div>
           All rights reserved | Impressum | Datenschutz | AGB | Code of Conduct
           | Hinweisgeberschutzgesetz
         </div>
-        <div className="justify-content-end">
-          Join us on Instagram | LinkedIn
-        </div>
+        <div>Join us on Instagram | LinkedIn</div>
       </div>
     </footer>
   );

@@ -1,1 +1,5 @@
+/* navbar.scss */
 
+.navbar-nav .nav-item .nav-link.active {
+  text-decoration: underline; /* Add underline to the active link */
+}
