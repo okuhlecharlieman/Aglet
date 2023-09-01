@@ -18,14 +18,8 @@ function Anavbar() {
               <Nav.Link className="text-white" href="#home">
                 Home
               </Nav.Link>
-              <Nav.Link className="text-white" href="#about">
-                About
-              </Nav.Link>
-              <Nav.Link className="text-white" href="#service">
-                Services
-              </Nav.Link>
-              <Nav.Link className="text-white" href="#projects">
-                Projects
+              <Nav.Link className="text-white" href="#contact">
+                Contact
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
