@@ -7,8 +7,8 @@ const contact = () => {
   return (
     <>
       <Anavbar />
-      <div className="container d-flex align-items-end index-1 position-relative ">
-        <div className="col-4">
+      <div className="container d-lg-flex  align-items-end index-1 position-relative ">
+        <div className="col-md-4 col-6 ">
           <img
             className="img-fluid"
             src="https://i.ibb.co/1GKKsL4/contact-image.jpg"
@@ -30,13 +30,39 @@ const contact = () => {
             <p className="m-5  text-white">
               you can reach me on:
               <br />
-              tel: 063 451 6432
+              <a href="tel:0634516432"> tel: 063 451 6432</a>
               <br />
-              email: okuhlecharlieman72@gmail.com
+              <a href="mailto: okuhlecharlieman72@gmail.com">
+                {" "}
+                email: okuhlecharlieman72@gmail.com
+              </a>
             </p>
           </div>
           <div className="mb-5">
-            <p className="m-5  text-white">Share: </p>
+            <span className="m-5  text-white">
+              Share:
+              <img
+                className="m-1"
+                width="30"
+                height="30"
+                src="https://img.icons8.com//windows/32/FFFFFF/facebook-new.png"
+                alt="facebook-new"
+              />
+              <img
+                className="m-1"
+                width="30"
+                height="30"
+                src="https://img.icons8.com/windows/32/FFFFFF/twitter.png"
+                alt="twitter-circled--v1"
+              />
+              <img
+                className="m-1"
+                width="30"
+                height="30"
+                src="https://img.icons8.com/windows/32/FFFFFF/google-plus.png"
+                alt="google-plus"
+              />
+            </span>
           </div>
         </div>
       </div>

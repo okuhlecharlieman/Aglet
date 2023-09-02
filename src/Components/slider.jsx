@@ -34,8 +34,8 @@ function Slider() {
         <hr />
         <Carousel interval={null}>
           <Carousel.Item>
-            <div className="d-flex">
-              <div className="col-4">
+            <div className="d-md-flex">
+              <div className="col-md-4">
                 <video
                   src={video12}
                   alt="project-management"
@@ -44,12 +44,10 @@ function Slider() {
                   onMouseEnter={(e) => handleVideoHover(e.target)}
                   onMouseLeave={(e) => handleVideoLeave(e.target)}
                 />
-                <div className="col text-white font-weight-bold my-2">
-                  kdjjdjdj
-                </div>
+                <div className="col text-white font-weight-bold my-2">One</div>
                 <div className="col text-secondary">djjd</div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4">
                 <video
                   src={video1}
                   alt="project-management"
@@ -58,12 +56,10 @@ function Slider() {
                   onMouseEnter={(e) => handleVideoHover(e.target)}
                   onMouseLeave={(e) => handleVideoLeave(e.target)}
                 />
-                <div className="col text-white font-weight-bold my-2">
-                  kdjjdjdj
-                </div>
+                <div className="col text-white font-weight-bold my-2">Two</div>
                 <div className="col text-secondary">djjd</div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4">
                 <video
                   src={video2}
                   alt="project-management"
@@ -73,15 +69,15 @@ function Slider() {
                   onMouseLeave={(e) => handleVideoLeave(e.target)}
                 />
                 <div className="col text-white font-weight-bold my-2">
-                  kdjjdjdj
+                  Three
                 </div>
                 <div className="col text-secondary">djjd</div>
               </div>
             </div>
           </Carousel.Item>
           <Carousel.Item>
-            <div className="d-flex">
-              <div className="col-4">
+            <div className="d-md-flex">
+              <div className="col-md-4">
                 <video
                   src={video3}
                   alt="project-management"
@@ -90,12 +86,10 @@ function Slider() {
                   onMouseEnter={(e) => handleVideoHover(e.target)}
                   onMouseLeave={(e) => handleVideoLeave(e.target)}
                 />
-                <div className="col text-white font-weight-bold my-2">
-                  kdjjdjdj
-                </div>
+                <div className="col text-white font-weight-bold my-2">Four</div>
                 <div className="col text-secondary">djjd</div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4">
                 <video
                   src={video4}
                   alt="project-management"
@@ -104,12 +98,10 @@ function Slider() {
                   onMouseEnter={(e) => handleVideoHover(e.target)}
                   onMouseLeave={(e) => handleVideoLeave(e.target)}
                 />
-                <div className="col text-white font-weight-bold my-2">
-                  kdjjdjdj
-                </div>
+                <div className="col text-white font-weight-bold my-2">Five</div>
                 <div className="col text-secondary">djjd</div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4">
                 <video
                   src={video5}
                   alt="project-management"
@@ -118,16 +110,14 @@ function Slider() {
                   onMouseEnter={(e) => handleVideoHover(e.target)}
                   onMouseLeave={(e) => handleVideoLeave(e.target)}
                 />
-                <div className="col text-white font-weight-bold my-2">
-                  kdjjdjdj
-                </div>
+                <div className="col text-white font-weight-bold my-2">Six</div>
                 <div className="col text-secondary">djjd</div>
               </div>
             </div>
           </Carousel.Item>
           <Carousel.Item>
-            <div className="d-flex">
-              <div className="col-4">
+            <div className="d-md-flex">
+              <div className="col-md-4">
                 <video
                   src={video6}
                   alt="project-management"
@@ -137,11 +127,11 @@ function Slider() {
                   onMouseLeave={(e) => handleVideoLeave(e.target)}
                 />
                 <div className="col text-white font-weight-bold my-2">
-                  kdjjdjdj
+                  Seven
                 </div>
                 <div className="col text-secondary">djjd</div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4">
                 <video
                   src={video7}
                   alt="project-management"
@@ -151,11 +141,11 @@ function Slider() {
                   onMouseLeave={(e) => handleVideoLeave(e.target)}
                 />
                 <div className="col text-white font-weight-bold my-2">
-                  kdjjdjdj
+                  Eight
                 </div>
                 <div className="col text-secondary">djjd</div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4">
                 <video
                   src={video8}
                   alt="project-management"
@@ -164,16 +154,14 @@ function Slider() {
                   onMouseEnter={(e) => handleVideoHover(e.target)}
                   onMouseLeave={(e) => handleVideoLeave(e.target)}
                 />
-                <div className="col text-white font-weight-bold my-2">
-                  kdjjdjdj
-                </div>
+                <div className="col text-white font-weight-bold my-2">Nine</div>
                 <div className="col text-secondary">djjd</div>
               </div>
             </div>
           </Carousel.Item>
           <Carousel.Item>
-            <div className="d-flex">
-              <div className="col-4">
+            <div className="d-md-flex">
+              <div className="col-md-4">
                 <video
                   src={video9}
                   alt="project-management"
@@ -182,12 +170,10 @@ function Slider() {
                   onMouseEnter={(e) => handleVideoHover(e.target)}
                   onMouseLeave={(e) => handleVideoLeave(e.target)}
                 />
-                <div className="col text-white font-weight-bold my-2">
-                  kdjjdjdj
-                </div>
+                <div className="col text-white font-weight-bold my-2">Ten</div>
                 <div className="col text-secondary">djjd</div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4">
                 <video
                   src={video10}
                   alt="project-management"
@@ -197,11 +183,11 @@ function Slider() {
                   onMouseLeave={(e) => handleVideoLeave(e.target)}
                 />
                 <div className="col text-white font-weight-bold my-2">
-                  kdjjdjdj
+                  Eleven
                 </div>
                 <div className="col text-secondary">djjd</div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4">
                 <video
                   src={video11}
                   alt="project-management"
@@ -211,7 +197,7 @@ function Slider() {
                   onMouseLeave={(e) => handleVideoLeave(e.target)}
                 />
                 <div className="col text-white font-weight-bold my-2">
-                  kdjjdjdj
+                  Twelve
                 </div>
                 <div className="col text-secondary">djjd</div>
               </div>

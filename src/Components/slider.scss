@@ -1,8 +1,18 @@
-.carousel-indicators {
-  position: relative;
-  top: 105%;
+@media (min-width: 2px) {
+  .carousel-indicators {
+    position: relative;
+    top: -2%;
+  }
+  @media (min-width: 992px) {
+    .carousel-indicators {
+      position: relative;
+      top: 105%;
+    }
+  }
 }
 .carousel {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  cursor: pointer;
 }
 .font-weight-bold {
   font-weight: bold;

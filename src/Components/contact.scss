@@ -4,10 +4,43 @@
 .index-2 {
   z-index: 2;
 }
-.f-500 {
-  font-size: 13rem;
+@media (min-width: 1px) {
+  .f-500 {
+    font-size: 9rem;
+  }
+  .top-0 {
+    margin-top: 30%;
+  }
+  @media (min-width: 567px) {
+    .f-500 {
+      font-size: 9rem;
+    }
+    .top-0 {
+      margin-top: 25%;
+    }
+
+    @media (min-width: 992px) {
+      .f-500 {
+        font-size: 7.5rem;
+      }
+      .top-0 {
+        margin-top: 12%;
+        margin-left: -11%;
+      }
+      @media (min-width: 1200px) {
+        .f-500 {
+          font-size: 13rem;
+        }
+        .top-0 {
+          margin-top: 15%;
+          margin-left: -12%;
+        }
+      }
+    }
+  }
 }
-.top-0 {
-  margin-top: 15%;
-  margin-left: -12%;
+
+.container a {
+  color: white;
+  text-decoration: none;
 }
