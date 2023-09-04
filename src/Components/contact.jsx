@@ -38,8 +38,8 @@ const contact = () => {
               </a>
             </p>
           </div>
-          <div className="mb-5">
-            <span className="m-5  text-white">
+          <div className="mb-5 ">
+            <span className="m-5 d-flex text-white">
               Share:
               <img
                 className="m-1"
