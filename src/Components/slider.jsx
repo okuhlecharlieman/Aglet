@@ -30,7 +30,7 @@ function Slider() {
   };
   return (
     <div>
-      <div className="container-fluid ">
+      <div className="container-fluid mb">
         <hr />
         <Carousel interval={null}>
           <Carousel.Item>

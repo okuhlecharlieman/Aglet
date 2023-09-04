@@ -4,36 +4,45 @@
 .index-2 {
   z-index: 2;
 }
+
 @media (min-width: 1px) {
   .f-500 {
     font-size: 9rem;
   }
   .top-0 {
-    margin-top: 30%;
+    margin-top: 65%;
   }
-  @media (min-width: 567px) {
+  @media (min-width: 361px) {
     .f-500 {
       font-size: 9rem;
     }
     .top-0 {
-      margin-top: 25%;
+      margin-top: 50%;
     }
-
-    @media (min-width: 992px) {
+    @media (min-width: 567px) {
       .f-500 {
-        font-size: 7.5rem;
+        font-size: 9rem;
       }
       .top-0 {
-        margin-top: 12%;
-        margin-left: -11%;
+        margin-top: 35%;
       }
-      @media (min-width: 1200px) {
+
+      @media (min-width: 992px) {
         .f-500 {
-          font-size: 13rem;
+          font-size: 7.5rem;
         }
         .top-0 {
-          margin-top: 15%;
-          margin-left: -12%;
+          margin-top: 12%;
+          margin-left: -11%;
+        }
+        @media (min-width: 1200px) {
+          .f-500 {
+            font-size: 13rem;
+          }
+          .top-0 {
+            margin-top: 15%;
+            margin-left: -12%;
+          }
         }
       }
     }
