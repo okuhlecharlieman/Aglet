@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+// import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./slider.scss";
 import video1 from "../Assets/Videos/vid1.mp4";
