@@ -12,7 +12,7 @@ const contact = () => {
           <img
             className="img-fluid"
             src="https://i.ibb.co/1GKKsL4/contact-image.jpg"
-            alt="contact image"
+            alt="contact"
           />
         </div>
         <div className=" col-8 ">
