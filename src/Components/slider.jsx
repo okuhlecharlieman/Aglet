@@ -16,11 +16,11 @@ import video11 from "../Assets/Videos/vid11.mp4";
 import video12 from "../Assets/Videos/vid12.mp4";
 
 function Slider() {
-  const [index, setIndex] = useState(0);
+  // const [index, setIndex] = useState(0);
 
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
-  };
+  // const handleSelect = (selectedIndex) => {
+  //   setIndex(selectedIndex);
+  // };
   const handleVideoHover = (videoElement) => {
     videoElement.play(); // Play the video when hovering
   };
